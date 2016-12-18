@@ -4,8 +4,6 @@
   Prevents the need to manually update them each time functionality changes.
  */
 
-'use strict';
-
 console.log('Sync code samples');
 
 const fs = require('fs');

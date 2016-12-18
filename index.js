@@ -1,5 +1,3 @@
-'use strict';
-
 const fs = require('fs');
 const extend = require('extend');
 const inlineCss = require('inline-css');

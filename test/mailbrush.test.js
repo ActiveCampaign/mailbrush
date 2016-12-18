@@ -1,5 +1,3 @@
-'use strict';
-
 const assert = require('assert');
 const loadFile = require('./util').loadFile;
 const extend = require('extend');
