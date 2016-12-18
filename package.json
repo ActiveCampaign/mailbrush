@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha",
-    "test:watch": "mocha -w",
+    "test": "mocha $(find . -name '*.test.js')",
+    "test:watch": "mocha -w $(find . -name '*.test.js')",
     "sync": "node test/syncExpect.js"
   },
   "author": "Derek Rushforth",
