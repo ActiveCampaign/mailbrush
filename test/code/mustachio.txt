@@ -1,0 +1,6 @@
+curl "https://api.postmarkapp.com/email" \
+  -X POST \
+  -H "Accept: application/json" \
+  -H "Content-Type: application/json" \
+  -H "X-Postmark-Server-Token: {{server_token}}" \
+  -d "{From: '{{from_email}}', To: '{{to_email}}', Subject: '{{subject}}', HtmlBody: '<p>{{text}}</p>'}"

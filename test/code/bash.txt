@@ -1,0 +1,6 @@
+curl "https://api.postmarkapp.com/email/batch" \
+  -X POST \
+  -H "Accept: application/json" \
+  -H "Content-Type: application/json" \
+  -H "X-Postmark-Server-Token: server token" \
+  -d "[{From: 'sender@example.com', To: 'receiver1@example.com', Subject: 'Postmark test #1', HtmlBody: '<html><body><strong>Hello</strong> dear Postmark user.</body></html>'},{From: 'sender@example.com', To: 'receiver2@example.com', Subject: 'Postmark test #2', HtmlBody: '<html><body><strong>Hello</strong> dear Postmark user.</body></html>'}]"

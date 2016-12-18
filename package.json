@@ -1,0 +1,26 @@
+{
+  "name": "mailbrush",
+  "version": "0.0.1",
+  "description": "A syntax highlighter for generating email friendly code snippets.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "test:watch": "mocha -w",
+    "sync": "node test/syncExpect.js"
+  },
+  "author": "Derek Rushforth",
+  "license": "MIT",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "inline-css": "^2.2.2",
+    "postcss": "^5.2.6",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-inject-css-variables": "0.0.2",
+    "prismjs": "^1.6.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
