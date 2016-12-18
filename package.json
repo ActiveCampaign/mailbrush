@@ -1,7 +1,8 @@
 {
   "name": "mailbrush",
   "version": "0.0.1",
-  "description": "A syntax highlighter for generating email friendly code snippets.",
+  "repository": "wildbit/mailbrush",
+  "description": "Syntax highlighter for generating email friendly code snippets.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -22,5 +23,19 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
-  }
+  },
+  "keywords": [
+    "syntax highlighting",
+    "email templates",
+    "code snippets",
+    "highlight",
+    "syntax",
+    "emails",
+    "snippets",
+    "code highlighter",
+    "mailbrush",
+    "code coloring",
+    "colors",
+    "email syntax highlighter"
+  ]
 }
