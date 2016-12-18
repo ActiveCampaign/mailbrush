@@ -1,4 +1,4 @@
-# MailBrush
+# MailBrush – Syntax highlighting for email templates
 > Brought to you by <a href="http://postmarkapp.com"><img src="http://assets.wildbit.com/postmark/misc/postmark.svg" alt="Postmark" style="vertical-align: -3px;"></a>
 
 [![Build Status](https://travis-ci.org/wildbit/mailbrush.svg?branch=master)](https://travis-ci.org/wildbit/mailbrush)
@@ -11,16 +11,13 @@ MailBrush lets you add syntax highlighting to code snippets so they can be used 
   "key2": "value 2"
 }</pre>
 
-**Your snippets will now look like this:**
-<table cellpadding="0" cellspacing="0" width="100%" style="background: #f5f2f0; display: block; width: 100%;"><tr><td style="background: #f5f2f0; color: #000; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 13px; padding: 6px 10px;"><pre style="-moz-tab-size: 2; -ms-hyphens: none; -o-tab-size: 2; -webkit-hyphens: none; color: #000; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 13px; hyphens: none; line-height: 1.5; overflow: auto; tab-size: 2; text-align: left; white-space: pre; word-break: normal; word-spacing: normal; word-wrap: normal;"><span style="color: #999; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 13px;">{</span>
-  <span style="color: #905; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 13px;">"key"</span><span style="color: #a67f59; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 13px;">:</span> <span style="color: #690; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 13px;">"value"</span><span style="color: #999; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 13px;">,</span>
-  <span style="color: #905; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 13px;">"key2"</span><span style="color: #a67f59; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 13px;">:</span> <span style="color: #690; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 13px;">"value 2"</span>
-<span style="color: #999; font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; font-size: 13px;">}</span></pre></td></tr></table>
+**Your snippets will now look like this:**<br>
+![MailBrush Syntax Highlighting](/media/snippet.png?raw=true "MailBrush Syntax Highlighting")
 
 ## Features
 
-* Supports HTML, CSS, Javascript, JSON, PHP, HTTP, and bash syntax highlighting.
-* 🎨Full customization of colors and styles. MailBrush comes with beautiful default styles so this is completely optional.
+* Supports HTML, CSS, Javascript, JSON, PHP, HTTP, and bash syntax highlighting
+* Full customization of colors and styles 🎨
 * Generates ready to use HTML snippets that have been tested in [all major email clients](https://litmus.com/pub/11f04d0):
     * Desktop
         * Apple Mail 8, 9, 10
@@ -78,7 +75,7 @@ Type: `string`
 The code snippet to add syntax highlighting to.
 
 #### options
-Type: `object`
+Type: `object`<br>
 Default:
 ```javascript
 {
@@ -107,7 +104,7 @@ Default:
 #### callback( HTML snippet )
 Type: `function( string )`
 
-The callback function containing the highlighted HTML snippet. Just pop that into your email template 🎉
+The callback function contains the highlighted HTML snippet. Just pop that into your email template and you’re ready! 🎉
 
 ## Interested in contributing?
 
