@@ -18,8 +18,9 @@ const mergeStyles = require('./mergestyles');
 
 
 exports.convert = (code, options, callback) => {
-  // TODO: throw error if empty
-  code = code || '';
+  if (code === '' || typeof code == 'undefined') {
+    throw('Did not specify code snippet.');
+  }
 
   // Merge user defined options with defaults
   const opts = extend({
