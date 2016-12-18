@@ -8,7 +8,7 @@ console.log('Sync code samples');
 
 const fs = require('fs');
 const util = require('./util');
-const mailbrush = require('../index');
+const mailbrush = require('../dist/mailbrush');
 
 const tests = [
   'bash', 'css', 'markup', 'http', 'javascript', 'json', 'mustachio', 'php'

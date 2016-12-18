@@ -1,14 +1,15 @@
 {
   "name": "mailbrush",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "repository": "wildbit/mailbrush",
   "description": "Syntax highlighter for generating email friendly code snippets.",
-  "main": "index.js",
+  "main": "./dist/mailbrush.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "mocha $(find . -name '*.test.js')",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "test": "mocha test/*.test.js",
     "test:watch": "mocha -w $(find . -name '*.test.js')",
-    "sync": "node test/syncExpect.js"
+    "sync": "node test/syncExpect.js",
+    "prepublish": "npm run build"
   },
   "author": "Derek Rushforth",
   "license": "MIT",
@@ -17,10 +18,11 @@
     "inline-css": "^2.2.2",
     "postcss": "^5.2.6",
     "postcss-cssnext": "^2.9.0",
-    "postcss-inject-css-variables": "0.0.2",
     "prismjs": "^1.6.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
   },

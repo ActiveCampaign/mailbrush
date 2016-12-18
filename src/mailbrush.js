@@ -2,7 +2,7 @@ const fs = require('fs');
 const extend = require('extend');
 const inlineCss = require('inline-css');
 const prism = require('prismjs');
-const mergeStyles = require('./lib/mergeStyles');
+const mergeStyles = require('./mergestyles');
 
 // Load prismJS language components
 [
@@ -17,7 +17,7 @@ const mergeStyles = require('./lib/mergeStyles');
 });
 
 
-exports.convert = function(code, options, callback) {
+exports.convert = (code, options, callback) => {
   // TODO: throw error if empty
   code = code || '';
 

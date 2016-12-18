@@ -1,13 +1,21 @@
 const extend = require('extend');
 const postcss = require('postcss');
-const postcssvariables = require('postcss-inject-css-variables');
 const postcssnext = require('postcss-cssnext');
 const fs = require('fs');
 const path = require('path');
 
 const defaultTheme = fs.readFileSync(path.join(__dirname, '../themes/default.css'), 'utf8');
 
-exports.compile = function(options) {
+exports.compile = (options) => {
+
+  function injectVariables(variables) {
+    return (css) => {
+      const rule = postcss.rule({ selector: ':root' });
+      const props = Object.keys(variables);
+      const decls = props.map((prop) => postcss.decl({ prop: `--${prop}`, value: variables[prop] }));
+      css.prepend(rule.append(decls));
+    }
+  }
 
   const opts = extend({
     width: '600px',
@@ -28,6 +36,6 @@ exports.compile = function(options) {
     fontColorImportant: '#e90'
   }, options);
 
-  return postcss([ postcssvariables(opts), postcssnext() ]).process(defaultTheme).css;
+  return postcss([ injectVariables(opts), postcssnext() ]).process(defaultTheme).css;
 
 };

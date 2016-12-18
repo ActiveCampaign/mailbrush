@@ -1,7 +1,7 @@
 const assert = require('assert');
 const loadFile = require('./util').loadFile;
 const extend = require('extend');
-const mailbrush = require('../index');
+const mailbrush = require('../dist/mailbrush');
 
 
 describe('MailBrush', () => {
