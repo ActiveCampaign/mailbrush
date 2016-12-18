@@ -1,6 +1,6 @@
 {
   "name": "mailbrush",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "wildbit/mailbrush",
   "description": "Syntax highlighter for generating email friendly code snippets.",
   "main": "index.js",
