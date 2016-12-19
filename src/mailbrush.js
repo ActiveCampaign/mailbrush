@@ -24,7 +24,7 @@ exports.convert = (code, options, callback) => {
 
   // Merge user defined options with defaults
   const opts = extend({
-    language: 'html',
+    language: 'markup',
     cssOptions: {}
   }, options);
 
