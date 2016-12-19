@@ -76,6 +76,20 @@ describe('MailBrush', () => {
   });
 
 
+  // Bash
+  describe('Highlight Bash', () => {
+    const expectedFile = loadFile('code/bash-expect.txt');
+    const code = loadFile('code/bash.txt');
+    const opts = { language: 'bash' };
+
+    it('it should return highlighted Bash', () => {
+      mailbrush.convert(code, opts, (converted) => {
+        assert.equal(converted, expectedFile);
+      });
+    });
+  });
+
+
   // CSS options
   describe('Handle CSS Options', () => {
     const cssOptionsPath = 'code/css-options/';
