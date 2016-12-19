@@ -38,7 +38,7 @@ exports.convert = (code, options, callback) => {
   // Inline CSS
   inlineCss(wrappedHtml, {
     extraCss: mergeStyles.compile(opts.cssOptions),
-    url: 'css/prism.css', // TODO: Fix this
+    url: '/themes/default.css',
     removeHtmlSelectors: true,
     applyWidthAttributes: true
   }).then(function(html) {
