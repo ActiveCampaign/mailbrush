@@ -1,3 +1,5 @@
+<img src="http://assets.wildbit.com/wildbit/repos/mailbrush/mailbrush-logo@2x.png" alt="MailBrush" width="148" height="148" align="right">
+
 # MailBrush – Syntax highlighting for email templates
 > Brought to you by <a href="http://postmarkapp.com"><img src="http://assets.wildbit.com/postmark/misc/postmark.svg" alt="Postmark" style="vertical-align: -3px;"></a>
 
