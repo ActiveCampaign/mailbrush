@@ -25,7 +25,7 @@ pre {
   text-align: left;
   white-space: pre;
   word-spacing: normal;
-  word-break: normal;
+  word-break: break-all;
   word-wrap: normal;
   line-height: var(--lineHeight);
   tab-size: var(--tabSize);
