@@ -18,7 +18,6 @@ exports.compile = (options) => {
   }
 
   const opts = extend({
-    width: '600px',
     backgroundColor: '#f5f2f0',
     padding: '10px 15px',
     fontFamily: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace',

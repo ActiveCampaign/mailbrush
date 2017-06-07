@@ -17,7 +17,6 @@ const mergeStyles = require('./mergestyles');
   require(`prismjs/components/prism-${ language }`)
 });
 
-
 exports.convert = (code, options, callback) => {
   if (code === '' || typeof code == 'undefined') {
     throw('Did not specify code snippet.');
@@ -33,7 +32,7 @@ exports.convert = (code, options, callback) => {
   const prismHtml = prism.highlight(code, prism.languages[opts.language]);
 
   // Wrap HTML snippet
-  const wrappedHtml = `<table class="wrapper" cellpadding="0" cellspacing="0"><tr><td><table cellpadding="0" cellspacing="0" width="100%"><tr><td><pre>${ prismHtml }</pre></td></tr></table></table></td></tr>`;
+  const wrappedHtml = `<table class="wrapper" cellpadding="0" cellspacing="0"><tr><td><pre>${ prismHtml }</pre></td></tr></table>`;
 
   // Inline CSS
   inlineCss(wrappedHtml, {

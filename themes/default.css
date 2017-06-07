@@ -1,8 +1,3 @@
-.wrapper {
-  overflow: auto;
-  width: var(--width);
-}
-
 pre,
 span,
 td {
@@ -12,8 +7,6 @@ td {
 }
 
 table {
-  display: block;
-  width: 100%;
   background: var(--backgroundColor);
 }
 td {

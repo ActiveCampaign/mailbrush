@@ -81,7 +81,6 @@ Default:
 {
   language: 'markup', // The language of your code snippet. Supports markup, CSS, Javascript, JSON, PHP, HTTP, and bash.
   cssOptions: {
-    width: '600px',
     backgroundColor: '#f5f2f0',
     padding: '10px 15px',
     fontFamily: 'Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace',
