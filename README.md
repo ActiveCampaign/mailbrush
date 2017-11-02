@@ -55,10 +55,10 @@ const options = {
 };
 
 // The code snippet you want to beautify
-const snippet = '{
+const snippet = `{
    "key": "value",
    "key2": "value 2"
-}'
+}`
 
 // Make some rainbows
 mailbrush.convert(snippet, options, (html) => {
