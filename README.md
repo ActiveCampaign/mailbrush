@@ -3,7 +3,7 @@
 # MailBrush – Syntax highlighting for email templates
 > Brought to you by <a href="http://postmarkapp.com"><img src="https://newsletter.postmarkapp.com/assets/images/pm_logo@2x.png" width="100" alt="Postmark" style="vertical-align: -3px;"></a>
 
-[![Build Status](https://travis-ci.org/wildbit/mailbrush.svg?branch=master)](https://travis-ci.org/wildbit/mailbrush)
+[![Build Status](https://travis-ci.org/activecampaign/mailbrush.svg?branch=master)](https://travis-ci.org/activecampaign/mailbrush)
 
 MailBrush lets you add syntax highlighting to code snippets so they can be used in your email templates.
 
@@ -109,8 +109,8 @@ The callback function contains the highlighted HTML snippet. Just pop that into 
 
 ## Interested in contributing?
 
-Read through our [guidelines for contributing](https://github.com/wildbit/mailbrush/blob/master/CONTRIBUTING.MD) to help make contributions quick and easy.
+Read through our [guidelines for contributing](https://github.com/activecampaign/mailbrush/blob/master/CONTRIBUTING.MD) to help make contributions quick and easy.
 
-## Have you tried MailMason?
+## Have you tried MailBrush?
 
-We built [MailMason](https://github.com/wildbit/mailmason) as a complete toolset to streamline building and updating a set of consistent transactional emails.
+We built [MailBrush](https://github.com/activecampaign/mailbrush) as a complete toolset to streamline building and updating a set of consistent transactional emails.
