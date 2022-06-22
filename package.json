@@ -1,7 +1,7 @@
 {
   "name": "mailbrush",
-  "version": "0.0.8",
-  "repository": "wildbit/mailbrush",
+  "version": "0.0.9",
+  "repository": "activecampaign/mailbrush",
   "description": "Syntax highlighter for generating email friendly code snippets.",
   "main": "./dist/mailbrush.js",
   "scripts": {

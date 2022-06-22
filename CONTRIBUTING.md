@@ -6,28 +6,24 @@ These guidelines are here so we can all be on the same page. They also help ensu
 
 ## What types of contributions help?
 
-MailBrush is an open source project, and we love to receive contributions from our community — you! There are many ways to contribute, from writing tutorials or blog posts, improving the documentation, submitting [bug reports and feature requests](https://github.com/wildbit/mailbrush/issues), or writing code which can be incorporated into MailBrush itself.
+MailBrush is an open source project, and we love to receive contributions from our community — you! There are many ways to contribute, from writing tutorials or blog posts, improving the documentation, submitting [bug reports and feature requests](https://github.com/activecampaign/mailbrush/issues), or writing code which can be incorporated into MailBrush itself.
 
 ## Sources for Support
 
 Please, don't use the issue tracker for support questions. Check whether the #MailBrush IRC channel on Freenode can help with your issue
 
-## Code of Conduct
-
-Before getting started, make sure to take a look at our [Code of Conduct](http://wildbit.com/code-of-conduct-for-open-source). If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of the team or email conduct@wildbit.com immediately.
-
 ### Technical and procedural considerations
 
-* Create [issues](https://github.com/wildbit/MailBrush/issues) for any major changes and enhancements that you wish to make. Discuss things transparently and get community feedback.
+* Create [issues](https://github.com/activecampaign/MailBrush/issues) for any major changes and enhancements that you wish to make. Discuss things transparently and get community feedback.
 * Keep pull requests as atomic as possible, preferably one new feature per pull request.
-* Be welcoming to newcomers and encourage diverse new contributors from all backgrounds. See the [Code of Conduct](http://wildbit.com/open-source-code-of-conduct).
+* Be welcoming to newcomers and encourage diverse new contributors from all backgrounds. See the [Code of Conduct](http://activecampaign.com/open-source-code-of-conduct).
 
 ### Your First Contribution
 
 Unsure where to begin contributing to MailBrush? You can start by looking through these beginner and help-wanted issues:
 
-* [Beginner issues](https://github.com/wildbit/mailbrush/labels/beginner) - issues which should only require a few lines of code, and a little testing.
-* [Help wanted issues](https://github.com/wildbit/mailbrush/labels/help%20wanted) - issues which should be a bit more involved than beginner issues.
+* [Beginner issues](https://github.com/activecampaign/mailbrush/labels/beginner) - issues which should only require a few lines of code, and a little testing.
+* [Help wanted issues](https://github.com/activecampaign/mailbrush/labels/help%20wanted) - issues which should be a bit more involved than beginner issues.
 
 Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
@@ -45,8 +41,6 @@ At this point, you're ready to make your changes! Feel free to ask for help; eve
 ## How to report a bug
 
 ### Reporting security issues
-
-*If you find a security vulnerability, do NOT open an issue. Submit it through our [security form](https://wildbit.wufoo.com/forms/wildbit-security-response/) instead.*
 
 In order to determine whether you are dealing with a security issue, ask yourself these two questions:
 
