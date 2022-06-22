@@ -7,6 +7,7 @@ const mergeStyles = require('./mergestyles');
 // Load prismJS language components
 [
   'markup',
+  'markup-templating',
   'bash',
   'css',
   'http',
